@@ -1,0 +1,90 @@
+/* CSS */
+
+.saveButton {
+    background-color: #b7ceaf;
+    border: 1px solid #b7ceaf;
+    border-color: #848484;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 15px;
+    right: auto;
+}
+
+.dropdownButton {
+    width: 210px;
+    height: 30px;
+    border-color: #848484;
+    color: black;
+}
+
+
+/*#eeeeee*/
+
+label,
+input {
+    display: block;
+    width: 5px;
+    @media (min-width: 500px) {
+        width: auto;
+        display: flex;
+    }
+}
+
+.colorPicker {
+    margin-bottom: 500px;
+}
+
+.colorButton {
+    height: 30px;
+    width: 210px;
+    @media (min-width: 200px) {
+        width: auto;
+        display: flex;
+    }
+}
+
+label {
+    margin-top: 10px;
+    @media (min-width: 500px) {
+        /* margin-right: 1rem; */
+        min-width: 100px;
+    }
+}
+
+input {
+    width: 200px;
+    color: Black;
+    background-color: #eeeeee;
+    border-color: #848484;
+    margin-right: 200px;
+    font-size: 16px;
+    @media (min-width: 500px) {
+        flex-grow: 1;
+        max-width: 450px;
+    }
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+.ReactTable {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
